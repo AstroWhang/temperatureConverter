@@ -21,10 +21,13 @@ input[type=number] {
 	height: 100%;
 	font-family: Asap, sans-serif;
 	background: black;
+	/* removes outline when hover? */
+	outline: none;
 	color: white;
 	font-size: 10em;
 	text-align: center;
 	border: 0;
+
 }
 /* pseudo element, only works for chrome, need a prefix for other browsers
 /* ::-webkit-input-placeholder (chrome, safari, opera) */
